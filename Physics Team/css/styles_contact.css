@@ -1,0 +1,71 @@
+body, ul, li, h1, h2 a{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: rgb(35, 36, 37);
+    padding: 20px;
+    text-align: center;
+    position: relative fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid #990000;
+}
+
+header h1 span.MBHS{
+    color: #990000;
+}
+header h1 span.Phys{
+    color: rgb(167, 167, 167);
+}
+
+header h1{
+    display: inline-block;
+    font-size: 3.5em;
+}
+
+nav{
+    background-color: silver;
+    padding: 20px;
+    position: sticky;
+    top:300px;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    width: 30.6%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(17, 0, 255);
+}
+
+nav li a.current{
+    color: #ff0000;
+}
+
+nav li a:hover{
+    text-decoration: underline;
+}
+
+/* footer */
+.footer{
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0);
+    color: #990000;
+    padding: 1px;
+    text-align: center;
+}
